@@ -65,7 +65,7 @@ new Chart(ctxMicroCT, {
         plugins: {
             title: {
                 display: true,
-                text: 'Répartition des avis sur la filière "Culture tropical"'
+                text: 'Répartition des avis sur la filière "Culture tropicale"'
             },
             legend: {
                 display: true
@@ -623,7 +623,7 @@ new Chart(ctxMCCT, {
         plugins: {
             title: {
                 display: true,
-                text: 'Répartition des avis sur la filière "Culture tropical"'
+                text: 'Répartition des avis sur la filière "Culture tropicale"'
             },
             legend: {
                 display: true
@@ -705,7 +705,7 @@ new Chart(ctxMCViti, {
         plugins: {
             title: {
                 display: true,
-                text: 'Répartition des avis sur la filière "Legume"'
+                text: 'Répartition des avis sur la filière "Viticulture"'
             },
             legend: {
                 display: true
@@ -1093,7 +1093,7 @@ new Chart(ctxSNViti, {
         plugins: {
             title: {
                 display: true,
-                text: 'Répartition des avis sur la filière "Legume"'
+                text: 'Répartition des avis sur la filière "Viticulture"'
             },
             legend: {
                 position: 'top'
