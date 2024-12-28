@@ -6,14 +6,14 @@ const dataMicroArbo = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [8, 0, 0, 0], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [8, 0, 0, 0],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroArbo, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroArbo,
     options: {
         responsive: true,
@@ -23,12 +23,12 @@ new Chart(ctxMicroArbo, {
                 text: 'Répartition des avis sur la filière "Arboriculture"'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -51,14 +51,14 @@ const dataMicroCT = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [3, 0, 0, 0], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [3, 0, 0, 0],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroCT, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroCT,
     options: {
         responsive: true,
@@ -68,12 +68,12 @@ new Chart(ctxMicroCT, {
                 text: 'Répartition des avis sur la filière "Culture tropical"'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -96,14 +96,14 @@ const dataMicroGC = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [9, 1, 0, 3], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [9, 1, 0, 3],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroGC, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroGC,
     options: {
         responsive: true,
@@ -113,12 +113,12 @@ new Chart(ctxMicroGC, {
                 text: 'Répartition des avis sur la filière "Grande culture "'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -141,14 +141,14 @@ const dataMicroHorti = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [9, 7, 0, 0], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [9, 7, 0, 0],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroHorti, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroHorti,
     options: {
         responsive: true,
@@ -158,12 +158,12 @@ new Chart(ctxMicroHorti, {
                 text: 'Répartition des avis sur la filière "Horticulture "'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -186,14 +186,14 @@ const dataMicroLegume = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [23, 11, 1, 7], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [23, 11, 1, 7],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroLegume, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroLegume,
     options: {
         responsive: true,
@@ -203,12 +203,12 @@ new Chart(ctxMicroLegume, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -231,14 +231,14 @@ const dataMicroViti = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [3, 0, 0, 0], // Nombre d'avis pour chaque catégorie
-        fill: false,  // Ne pas remplir sous la courbe
-        borderColor: 'rgba(75, 192, 192, 1)', // Couleur de la ligne
-        tension: 0.1,  // Lissage de la courbe
+        data: [3, 0, 0, 0],
+        fill: false,
+        borderColor: 'rgba(75, 192, 192, 1)',
+        tension: 0.1,
     }]
 };
 new Chart(ctxMicroViti, {
-    type: 'line', // Type du graphique (ligne)
+    type: 'line',
     data: dataMicroViti,
     options: {
         responsive: true,
@@ -248,12 +248,12 @@ new Chart(ctxMicroViti, {
                 text: 'Répartition des avis sur la filière "Viticulture"'
             },
             legend: {
-                display: true // Affiche la légende
+                display: true
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -386,15 +386,15 @@ new Chart(ctxMacroGC, {
 //----------Graphique Macro 3 : Legume----------
 const ctxMacroLegume = document.getElementById('avisChartMacroLegume').getContext('2d');
 const dataMacroLegume = {
-    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'], // Catégories d'avis
+    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [50, 15, 13, 2], // Correspond au nombre pour chaque type d'avis
+        data: [50, 15, 13, 2],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
             'rgba(75, 192, 192, 1)',
@@ -406,7 +406,7 @@ const dataMacroLegume = {
     }]
 };
 new Chart(ctxMacroLegume, {
-    type: 'bar', // Type de graphique
+    type: 'bar',
     data: dataMacroLegume,
     options: {
         responsive: true,
@@ -416,12 +416,12 @@ new Chart(ctxMacroLegume, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                display: false // Supprime la légende, car les labels suffisent
+                display: false
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence l'axe Y à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -441,15 +441,15 @@ new Chart(ctxMacroLegume, {
 //----------Graphique Macro 4 : Horticulture----------
 const ctxMacroHorti = document.getElementById('avisChartMacroHorti').getContext('2d');
 const dataMacroHorti = {
-    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'], // Catégories d'avis
+    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [47, 4, 0, 7], // Correspond au nombre pour chaque type d'avis
+        data: [47, 4, 0, 7],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
             'rgba(75, 192, 192, 1)',
@@ -461,22 +461,22 @@ const dataMacroHorti = {
     }]
 };
 new Chart(ctxMacroHorti, {
-    type: 'bar', // Type de graphique
+    type: 'bar',
     data: dataMacroHorti,
     options: {
         responsive: true,
         plugins: {
             title: {
                 display: true,
-                text: 'Répartition des avis sur la filière "orticulture"'
+                text: 'Répartition des avis sur la filière "Horticulture"'
             },
             legend: {
-                display: false // Supprime la légende, car les labels suffisent
+                display: false
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence l'axe Y à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -496,15 +496,15 @@ new Chart(ctxMacroHorti, {
 //----------Graphique Macro 5 : Viticulture----------
 const ctxMacroViti = document.getElementById('avisChartMacroViti').getContext('2d');
 const dataMacroViti = {
-    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'], // Catégories d'avis
+    labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Nombre d\'avis',
-        data: [4, 0, 0, 0], // Correspond au nombre pour chaque type d'avis
+        data: [4, 0, 0, 0],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
             'rgba(75, 192, 192, 1)',
@@ -516,7 +516,7 @@ const dataMacroViti = {
     }]
 };
 new Chart(ctxMacroViti, {
-    type: 'bar', // Type de graphique
+    type: 'bar',
     data: dataMacroViti,
     options: {
         responsive: true,
@@ -526,12 +526,12 @@ new Chart(ctxMacroViti, {
                 text: 'Répartition des avis sur la filière "Viticulture"'
             },
             legend: {
-                display: false // Supprime la légende, car les labels suffisent
+                display: false
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence l'axe Y à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -558,24 +558,24 @@ const dataMCArbo = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Répartition des avis',
-        data: [16, 0, 0, 0],  // Nombre d'avis pour chaque catégorie
+        data: [16, 0, 0, 0],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
-            'rgba(75, 192, 192, 1)',  // Bordure pour "Bon"
-            'rgba(255, 206, 86, 1)',  // Bordure pour "Mitigé"
-            'rgba(255, 99, 132, 1)',  // Bordure pour "Insatisfaisant"
-            'rgba(201, 203, 207, 1)'  // Bordure pour "Pas d'avis"
+            'rgba(75, 192, 192, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(255, 99, 132, 1)',
+            'rgba(201, 203, 207, 1)'
         ],
         borderWidth: 1
     }]
 };
 new Chart(ctxMCArbo, {
-    type: 'pie',  // Type de graphique: "pie" pour cercle
+    type: 'pie',
     data: dataMCArbo,
     options: {
         responsive: true,
@@ -585,7 +585,7 @@ new Chart(ctxMCArbo, {
                 text: 'Répartition des avis sur la filière "Arboriculture"'
             },
             legend: {
-                display: true  // Affiche la légende
+                display: true
             }
         }
     }
@@ -599,24 +599,24 @@ const dataMCCT = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Répartition des avis',
-        data: [1, 0, 0, 2],  // Nombre d'avis pour chaque catégorie
+        data: [1, 0, 0, 2],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
-            'rgba(75, 192, 192, 1)',  // Bordure pour "Bon"
-            'rgba(255, 206, 86, 1)',  // Bordure pour "Mitigé"
-            'rgba(255, 99, 132, 1)',  // Bordure pour "Insatisfaisant"
-            'rgba(201, 203, 207, 1)'  // Bordure pour "Pas d'avis"
+            'rgba(75, 192, 192, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(255, 99, 132, 1)',
+            'rgba(201, 203, 207, 1)'
         ],
         borderWidth: 1
     }]
 };
 new Chart(ctxMCCT, {
-    type: 'pie',  // Type de graphique: "pie" pour cercle
+    type: 'pie',
     data: dataMCCT,
     options: {
         responsive: true,
@@ -626,7 +626,7 @@ new Chart(ctxMCCT, {
                 text: 'Répartition des avis sur la filière "Culture tropical"'
             },
             legend: {
-                display: true  // Affiche la légende
+                display: true
             }
         }
     }
@@ -640,24 +640,24 @@ const dataMCLegume = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Répartition des avis',
-        data: [2, 1, 0, 6],  // Nombre d'avis pour chaque catégorie
+        data: [2, 1, 0, 6],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
-            'rgba(75, 192, 192, 1)',  // Bordure pour "Bon"
-            'rgba(255, 206, 86, 1)',  // Bordure pour "Mitigé"
-            'rgba(255, 99, 132, 1)',  // Bordure pour "Insatisfaisant"
-            'rgba(201, 203, 207, 1)'  // Bordure pour "Pas d'avis"
+            'rgba(75, 192, 192, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(255, 99, 132, 1)',
+            'rgba(201, 203, 207, 1)'
         ],
         borderWidth: 1
     }]
 };
 new Chart(ctxMCLegume, {
-    type: 'pie',  // Type de graphique: "pie" pour cercle
+    type: 'pie',
     data: dataMCLegume,
     options: {
         responsive: true,
@@ -667,7 +667,7 @@ new Chart(ctxMCLegume, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                display: true  // Affiche la légende
+                display: true
             }
         }
     }
@@ -681,24 +681,24 @@ const dataMCViti = {
     labels: ['Bon', 'Mitigé', 'Insatisfaisant', 'Pas d\'avis'],
     datasets: [{
         label: 'Répartition des avis',
-        data: [0, 0, 0, 1],  // Nombre d'avis pour chaque catégorie
+        data: [0, 0, 0, 1],
         backgroundColor: [
-            'rgba(75, 192, 192, 0.5)',  // Couleur pour "Bon"
-            'rgba(255, 206, 86, 0.5)',  // Couleur pour "Mitigé"
-            'rgba(255, 99, 132, 0.5)',  // Couleur pour "Insatisfaisant"
-            'rgba(201, 203, 207, 0.5)'  // Couleur pour "Pas d'avis"
+            'rgba(75, 192, 192, 0.5)',
+            'rgba(255, 206, 86, 0.5)',
+            'rgba(255, 99, 132, 0.5)',
+            'rgba(201, 203, 207, 0.5)'
         ],
         borderColor: [
-            'rgba(75, 192, 192, 1)',  // Bordure pour "Bon"
-            'rgba(255, 206, 86, 1)',  // Bordure pour "Mitigé"
-            'rgba(255, 99, 132, 1)',  // Bordure pour "Insatisfaisant"
-            'rgba(201, 203, 207, 1)'  // Bordure pour "Pas d'avis"
+            'rgba(75, 192, 192, 1)',
+            'rgba(255, 206, 86, 1)',
+            'rgba(255, 99, 132, 1)',
+            'rgba(201, 203, 207, 1)'
         ],
         borderWidth: 1
     }]
 };
 new Chart(ctxMCViti, {
-    type: 'pie',  // Type de graphique: "pie" pour cercle
+    type: 'pie',
     data: dataMCViti,
     options: {
         responsive: true,
@@ -708,7 +708,7 @@ new Chart(ctxMCViti, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                display: true  // Affiche la légende
+                display: true
             }
         }
     }
@@ -722,27 +722,27 @@ new Chart(ctxMCViti, {
 
 const ctxSNArbo = document.getElementById('avisChartSNArbo').getContext('2d');
 const dataSNArbo = {
-    labels: ['Arboriculture'], // Une seule catégorie pour la filière
+    labels: ['Arboriculture'],
     datasets: [{
         label: 'Bon',
-        data: [15], // Nombre d'avis "Bon"
+        data: [15],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [8], // Nombre d'avis "Mitigé"
+        data: [8],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [1], // Nombre d'avis "Insatisfaisant"
+        data: [1],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [1], // Nombre d'avis "Pas d'avis"
+        data: [1],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNArbo, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNArbo,
     options: {
         responsive: true,
@@ -752,12 +752,12 @@ new Chart(ctxSNArbo, {
                 text: 'Répartition des avis sur la filière "Arboriculture"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -770,19 +770,17 @@ new Chart(ctxSNArbo, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
@@ -792,27 +790,27 @@ new Chart(ctxSNArbo, {
 //----------Graphique SN 2 : Culture Tropicale----------
 const ctxSNCT = document.getElementById('avisChartSNCT').getContext('2d');
 const dataSNCT = {
-    labels: ['Culture tropicale'], // Une seule catégorie pour la filière
+    labels: ['Culture tropicale'],
     datasets: [{
         label: 'Bon',
-        data: [4], // Nombre d'avis "Bon"
+        data: [4],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [0], // Nombre d'avis "Mitigé"
+        data: [0],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [0], // Nombre d'avis "Insatisfaisant"
+        data: [0],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [0], // Nombre d'avis "Pas d'avis"
+        data: [0],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNCT, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNCT,
     options: {
         responsive: true,
@@ -822,12 +820,12 @@ new Chart(ctxSNCT, {
                 text: 'Répartition des avis sur la filière "Culture tropicale"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -840,19 +838,17 @@ new Chart(ctxSNCT, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
@@ -863,27 +859,27 @@ new Chart(ctxSNCT, {
 
 const ctxSNGC = document.getElementById('avisChartSNGC').getContext('2d');
 const dataSNGC = {
-    labels: ['Grande culture'], // Une seule catégorie pour la filière
+    labels: ['Grande culture'],
     datasets: [{
         label: 'Bon',
-        data: [8], // Nombre d'avis "Bon"
+        data: [8],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [0], // Nombre d'avis "Mitigé"
+        data: [0],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [0], // Nombre d'avis "Insatisfaisant"
+        data: [0],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [0], // Nombre d'avis "Pas d'avis"
+        data: [0],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNGC, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNGC,
     options: {
         responsive: true,
@@ -893,12 +889,12 @@ new Chart(ctxSNGC, {
                 text: 'Répartition des avis sur la filière "Grande culture"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -911,19 +907,17 @@ new Chart(ctxSNGC, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
@@ -934,27 +928,27 @@ new Chart(ctxSNGC, {
 
 const ctxSNHorti = document.getElementById('avisChartSNHorti').getContext('2d');
 const dataSNHorti = {
-    labels: ['Horticulture'], // Une seule catégorie pour la filière
+    labels: ['Horticulture'],
     datasets: [{
         label: 'Bon',
-        data: [7], // Nombre d'avis "Bon"
+        data: [7],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [0], // Nombre d'avis "Mitigé"
+        data: [0],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [0], // Nombre d'avis "Insatisfaisant"
+        data: [0],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [0], // Nombre d'avis "Pas d'avis"
+        data: [0],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNHorti, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNHorti,
     options: {
         responsive: true,
@@ -964,12 +958,12 @@ new Chart(ctxSNHorti, {
                 text: 'Répartition des avis sur la filière "Horticulture"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -982,19 +976,17 @@ new Chart(ctxSNHorti, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
@@ -1005,27 +997,27 @@ new Chart(ctxSNHorti, {
 
 const ctxSNLegume = document.getElementById('avisChartSNLegume').getContext('2d');
 const dataSNLegume = {
-    labels: ['Legume'], // Une seule catégorie pour la filière
+    labels: ['Legume'],
     datasets: [{
         label: 'Bon',
-        data: [32], // Nombre d'avis "Bon"
+        data: [32],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [7], // Nombre d'avis "Mitigé"
+        data: [7],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [4], // Nombre d'avis "Insatisfaisant"
+        data: [4],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [9], // Nombre d'avis "Pas d'avis"
+        data: [9],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNLegume, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNLegume,
     options: {
         responsive: true,
@@ -1035,12 +1027,12 @@ new Chart(ctxSNLegume, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -1053,19 +1045,17 @@ new Chart(ctxSNLegume, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
@@ -1076,27 +1066,27 @@ new Chart(ctxSNLegume, {
 
 const ctxSNViti = document.getElementById('avisChartSNViti').getContext('2d');
 const dataSNViti = {
-    labels: ['Viticulture'], // Une seule catégorie pour la filière
+    labels: ['Viticulture'],
     datasets: [{
         label: 'Bon',
-        data: [16], // Nombre d'avis "Bon"
+        data: [16],
         backgroundColor: 'rgba(75, 192, 192, 0.6)'
     }, {
         label: 'Mitigé',
-        data: [2], // Nombre d'avis "Mitigé"
+        data: [2],
         backgroundColor: 'rgba(255, 206, 86, 0.6)'
     }, {
         label: 'Insatisfaisant',
-        data: [0], // Nombre d'avis "Insatisfaisant"
+        data: [0],
         backgroundColor: 'rgba(255, 99, 132, 0.6)'
     }, {
         label: 'Pas d\'avis',
-        data: [1], // Nombre d'avis "Pas d'avis"
+        data: [1],
         backgroundColor: 'rgba(201, 203, 207, 0.6)'
     }]
 };
 new Chart(ctxSNViti, {
-    type: 'bar', // Type de graphique : barres
+    type: 'bar',
     data: dataSNViti,
     options: {
         responsive: true,
@@ -1106,12 +1096,12 @@ new Chart(ctxSNViti, {
                 text: 'Répartition des avis sur la filière "Legume"'
             },
             legend: {
-                position: 'top' // Position de la légende
+                position: 'top'
             }
         },
         scales: {
             y: {
-                beginAtZero: true, // Commence à zéro
+                beginAtZero: true,
                 title: {
                     display: true,
                     text: 'Nombre d\'avis'
@@ -1124,35 +1114,21 @@ new Chart(ctxSNViti, {
                 }
             }
         },
-        // On active le mode empilé ici
         elements: {
             bar: {
                 borderWidth: 2
             }
         },
-        // Configuration des axes empilés
         scales: {
             x: {
-                stacked: true, // Empilement des barres sur l'axe X
+                stacked: true,
             },
             y: {
-                stacked: true, // Empilement des barres sur l'axe Y
+                stacked: true,
             }
         }
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
